@@ -10,6 +10,8 @@ body {
 
 .container h1 {
   background-color: crimson;
+  width: 70%;
+  margin: auto;
   color: aliceblue;
   padding: 10px;
   margin-top: 100px;
