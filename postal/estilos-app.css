@@ -1,0 +1,66 @@
+body {
+  background-image: url(/assets/razas-perros.jpg);
+  background-size: cover;
+}
+
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container h1 {
+  background-color: crimson;
+  color: aliceblue;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 25px;
+}
+
+.container h2 {
+  color: brown;
+  margin-top: 40px;
+}
+
+.container button {
+  background-color: #b967ff;
+  color: aliceblue;
+  border: solid #ff71ce;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 70px;
+  padding: 10px 20px;
+}
+
+.container button:hover {
+  transform: scale(1.1);
+}
+
+.redes-sociales {
+  background-color: #fffb96;
+  border: solid #5c5a28;
+  width: 30%;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.iconos-redes {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.iconos-redes a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(0.6);
+}
+
+.iconos-redes a img:hover {
+  transform: scale(1.2);
+}

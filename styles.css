@@ -1,0 +1,101 @@
+/* Fuente y fondo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #1a407d;
+  background: linear-gradient(90deg, rgba(26, 64, 125, 1) 35%, rgba(5, 99, 180, 1) 64%, rgba(0, 212, 255, 1) 100%);
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #283e4a;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.foto-perfil {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-perfil img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  border: solid #082f3f;
+}
+
+/* Secciones */
+section {
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(47, 78, 214, 1) 50%, rgba(10, 37, 191, 1) 100%);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de secciones */
+h2 {
+  color: #0a0a0a;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Proyectos */
+.proyecto {
+  margin-bottom: 1.5rem;
+}
+
+/* Redes sociales */
+.redes-sociales {
+  text-align: center;
+}
+
+.iconos-redes {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.iconos-redes a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(0.6);
+}
+
+.iconos-redes a img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%) brightness(1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .iconos-redes {
+    gap: 15px;
+  }
+
+  .iconos-redes a img {
+    width: 32px;
+    height: 32px;
+  }
+}
