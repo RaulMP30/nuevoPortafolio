@@ -26,15 +26,20 @@ main {
   padding: 2rem 1rem;
 }
 
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .foto-perfil {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   align-items: center;
   justify-content: center;
 }
 
 .foto-perfil img {
-  max-width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 25px;
   border: solid #082f3f;
@@ -63,9 +68,28 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.rounded {
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
 /* Redes sociales */
 .redes-sociales {
   text-align: center;
+}
+
+.thanks-card {
+  display: flex;
+  justify-content: center;
 }
 
 .iconos-redes {

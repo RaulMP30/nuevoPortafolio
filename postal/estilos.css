@@ -24,18 +24,15 @@ body {
   margin-top: 40px;
 }
 
-.container button {
-  background-color: #b967ff;
-  color: aliceblue;
-  border: solid #ff71ce;
-  width: 200px;
-  margin: auto;
-  border-radius: 10px;
-  margin-top: 70px;
-  padding: 10px 20px;
+.carousel-inner {
+  border-radius: 25px;
 }
 
-.container button:hover {
+.btn {
+  margin-top: 30px;
+}
+
+.btn:hover {
   transform: scale(1.1);
 }
 

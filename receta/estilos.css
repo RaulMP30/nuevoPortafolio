@@ -3,6 +3,7 @@ body {
   background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(170, 193, 240, 1) 83%, rgba(148, 187, 233, 1) 100%);
 }
 
+
 h1 {
   background: #8a214e;
   background: radial-gradient(circle, rgba(138, 33, 78, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -10,6 +11,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
   text-align: center;
+  margin-top: 30px;
 }
 
 img {
@@ -36,7 +38,6 @@ h3 {
   width: 400px;
   height: 20px;
   margin: auto;
-  margin-bottom: 20px;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
@@ -44,7 +45,7 @@ h3 {
   color: aliceblue;
 }
 
-ul {
+.ingredientes {
   background: #833AB4;
   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(237, 28, 53, 1) 41%, rgba(253, 29, 29, 1) 50%, rgba(230, 103, 18, 1) 87%, rgba(252, 176, 69, 1) 100%);
   border: solid palevioletred;
@@ -62,11 +63,12 @@ ul {
   border-radius: 5px;
   width: 500px;
   margin: auto;
+  margin-bottom: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
 }
 
-li {
+.tablas-preparacion {
   margin: 10px;
   padding: 10px;
 }
@@ -83,6 +85,7 @@ li {
 .enlace-receta {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 30px;
 }
 
 .archivo {
@@ -93,6 +96,7 @@ li {
   text-align: center;
   width: 600px;
   margin: auto;
+  margin-bottom: 30px;
   border-radius: 15px;
 }
 
@@ -104,6 +108,7 @@ li {
   text-align: center;
   width: 600px;
   margin: auto;
+  margin-bottom: 30px;
   border-radius: 15px;
 }
 
